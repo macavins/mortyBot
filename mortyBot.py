@@ -94,4 +94,4 @@ async def talk(ctx, *, prompt):
     response = tokenizer.decode(output[0], skip_special_tokens=True)
     await ctx.send(response)
 
-bot.run('MTIwNjcyOTU0NDI1ODgyMjE1NA.GGHA2G.o-_QyXN_tZkYlLaKtPB1-_2dd5llmTfjLwQmmQ')
+bot.run('')
